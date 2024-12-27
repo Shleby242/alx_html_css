@@ -1,0 +1,28 @@
+body, main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+main{
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+
+}
+header{
+    flex: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
