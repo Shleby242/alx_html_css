@@ -1,5 +1,8 @@
 body, main {
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f9f9f9;
+    margin: 0; 
 }
 body {
     flex-direction: column;
